@@ -131,6 +131,29 @@
     border: 0;
 }
 
+/* my daily routines */
+.my-routine {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    margin-bottom: 130px;
+
+}
+
+.routine-time {
+    font-weight: 700;
+    font-size: 55px;
+    color: #F15B22;
+}
+
+.routine-title {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    margin-bottom: 20px;
+}
+
 /* footer section */
 .footer-items-list {
     display: flex;
@@ -140,7 +163,7 @@
 }
 
 .item-one-title {
-    ont-weight: 700;
+    font-weight: 700;
     font-size: 45px;
     color: #F8F8F8;
     margin-bottom: 16px;
